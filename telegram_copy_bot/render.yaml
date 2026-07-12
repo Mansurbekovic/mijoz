@@ -1,0 +1,15 @@
+services:
+  - type: worker
+    name: telegram-copy-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: TARGET_CHANNEL
+        value: yukspriter
+      - key: SOURCE_CHANNELS
+        value: yuk_markazi_bogdod,Gmail058omad,yuk_markazi_gruppaaaa,Yuk_markazi_kia_hunday_isuzu_yuk,kia_hunday_yuk
