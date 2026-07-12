@@ -4,4 +4,4 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
+    startCommand: "python3 -m telegram_copy_bot.bot"

@@ -4642,3 +4642,68 @@ Napitka 👇👇👇👇
 2026-07-12 19:47:41,316 - __main__ - INFO - ☕ Dam olish: 29 daqiqa qoldi
 2026-07-12 19:47:42,330 - __main__ - INFO - ☕ Dam olish: 29 daqiqa qoldi
 2026-07-12 19:47:43,341 - __main__ - INFO - ☕ Dam olish: 29 daqiqa qoldi
+2026-07-12 20:56:49,283 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 20:56:49,285 - __main__ - ERROR - ❌ Initialize xatolik: too many values to unpack (expected 5, got 6)
+2026-07-12 20:56:49,288 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 362, in initialize
+    self.client = TelegramClient(
+                  ~~~~~~~~~~~~~~^
+        self.session_name,
+        ^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        flood_sleep_threshold=120
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\telegrambaseclient.py", line 289, in __init__
+    session = SQLiteSession(session)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\sessions\sqlite.py", line 64, in __init__
+    self._dc_id, self._server_address, self._port, key, \
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._takeout_id = tuple_
+        ^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 5, got 6)
+
+2026-07-12 20:56:49,288 - __main__ - ERROR - ❌ Bot initializatsiya qilinmadi
+2026-07-12 20:57:37,981 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 20:57:38,118 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 20:57:38,118 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 20:57:38,119 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 20:57:39,910 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 20:58:35,108 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 20:58:35,111 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    await self.client.start()
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 20:58:35,111 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 20:58:35,112 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+    await bot.start()
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    await self.client.start()
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 20:58:35,112 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...

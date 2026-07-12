@@ -27,6 +27,7 @@ import random
 
 # ========== TELEGRAM KUTUBXONALARI ==========
 from telethon import TelegramClient, events, errors
+from telethon.sessions import StringSession
 from telethon.tl.types import Message, MessageMediaPhoto, MessageMediaDocument
 from telethon.errors import (
     FloodWaitError, ChannelPrivateError, ChannelInvalidError,
@@ -150,6 +151,8 @@ class BotConfig:
     # API
     API_ID: int = int(os.getenv('API_ID', '0'))
     API_HASH: str = os.getenv('API_HASH', '')
+    TELEGRAM_SESSION_STRING: str = os.getenv('TELEGRAM_SESSION_STRING') or os.getenv('SESSION_STRING') or os.getenv('SESSION') or ''
+    PHONE_NUMBER: str = os.getenv('PHONE_NUMBER', '')
     
     # Kanallar
     TARGET_CHANNEL: str = normalize_channel_value(os.getenv('TARGET_CHANNEL', 'yukspriter'))
@@ -338,7 +341,8 @@ class AdvancedCopyBot:
         self.client = None
         self.cache = MessageCache()
         self.monitor = BotMonitor(self.schedule)
-        self.session_name = f"session_{config.API_ID}"
+        self.session_name = str(BASE_DIR / f"session_{config.API_ID}")
+        self.session_string = config.TELEGRAM_SESSION_STRING
         self._running = False
         self._work_task = None
         self._health_task = None
@@ -359,8 +363,9 @@ class AdvancedCopyBot:
             logger.info("🚀 Bot initializatsiya qilinmoqda...")
             
             # Client yaratish
+            session_provider = StringSession(self.session_string) if self.session_string else self.session_name
             self.client = TelegramClient(
-                self.session_name,
+                session_provider,
                 self.config.API_ID,
                 self.config.API_HASH,
                 connection_retries=5,
@@ -389,7 +394,24 @@ class AdvancedCopyBot:
             logger.info("🌟 Bot ishga tushmoqda...")
             
             # Clientga ulanish
-            await self.client.start()
+            session_string = os.getenv('TELEGRAM_SESSION_STRING') or os.getenv('SESSION_STRING') or os.getenv('SESSION')
+            if session_string:
+                logger.info("🪪 Session string topildi, mavjud sessiya bilan ulanmoqda")
+                await self.client.start(phone=None)
+            else:
+                phone = os.getenv('PHONE_NUMBER') or os.getenv('TELEGRAM_PHONE')
+                if phone:
+                    logger.info("📱 Phone number topildi, user-account login ishlatilmoqda")
+                    await self.client.start(phone=phone)
+                else:
+                    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+                    if token:
+                        logger.info("🪪 Telegram bot token topildi, token orqali autentifikatsiya qilinmoqda")
+                        await self.client.start(bot_token=token)
+                    else:
+                        logger.error("❌ Telegram credential topilmadi")
+                        raise RuntimeError("No Telegram credentials configured")
+
             me = await self.client.get_me()
             
             logger.info(f"✅ Bot {me.first_name} (@{me.username}) sifatida ishga tushdi")
