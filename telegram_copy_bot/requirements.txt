@@ -14,7 +14,11 @@ tenacity==8.2.3
 cachetools==5.3.2
 aiofiles==23.2.1
 
+# Health-check web server (Render bepul Web Service uchun shart)
+aiohttp==3.10.11
+
 # Optional on Linux/Unix
 uvloop==0.22.1; platform_system != "Windows"
 # cryptg is omitted here because it tries to build native extensions in Render
 # and is not required for the bot to run.
+aiohttp==3.10.11

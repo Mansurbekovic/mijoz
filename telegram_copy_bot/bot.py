@@ -1,11 +1,4 @@
-"""
-╔══════════════════════════════════════════════════════════════════════╗
-║     TELEGRAM ADVANCED COPY BOT v4.0 - ULTIMATE EDITION            ║
-║     ═══════════════════════════════════════════════════════════     ║
-║     Ish rejimi: 5 soat ish → 30 daqiqa dam → 5 soat ish → ...    ║
-║     Xatoliklarga chidamli | O'z-o'zini tiklaydi | 24/7          ║
-╚══════════════════════════════════════════════════════════════════════╝
-"""
+
 
 import asyncio
 import os
@@ -24,6 +17,9 @@ import re
 from pathlib import Path
 from collections import deque
 import random
+
+# ========== WEB SERVER (Render bepul rejasi uchun) ==========
+from aiohttp import web
 
 # ========== TELEGRAM KUTUBXONALARI ==========
 from telethon import TelegramClient, events, errors
@@ -737,39 +733,74 @@ class AdvancedCopyBot:
         await self.monitor.update_state(BotState.STOPPED)
         logger.info("✅ Bot to'xtatildi")
 
+# ========== HEALTH-CHECK WEB SERVER ==========
+async def run_health_server():
+    """Render bepul rejasi Web Service turini talab qiladi va $PORT ni
+    tinglashni kutadi. Shu sababli yengil HTTP server ochamiz, u faqat
+    'OK' javob beradi. Haqiqiy ish esa Telegram bot tomonida davom etadi."""
+    port = int(os.getenv("PORT", "10000"))
+
+    async def health(request):
+        return web.Response(text="OK - telegram-copy-bot ishlamoqda")
+
+    app = web.Application()
+    app.router.add_get("/", health)
+    app.router.add_get("/health", health)
+
+    runner = web.AppRunner(app)
+    await runner.setup()
+    site = web.TCPSite(runner, host="0.0.0.0", port=port)
+    await site.start()
+    logger.info(f"🌐 Health-check server {port}-portda ishga tushdi")
+
+    # Doim ishlab tursin
+    while True:
+        await asyncio.sleep(3600)
+
+
 # ========== ASOSIY FUNKSIYA ==========
+async def run_bot():
+    """Telegram botni ishga tushirish (avtomatik qayta urinish bilan)"""
+    while True:
+        try:
+            # Konfiguratsiya
+            config = BotConfig()
+
+            # API tekshiruvi
+            if not config.API_ID or not config.API_HASH:
+                logger.error("❌ API_ID yoki API_HASH topilmadi!")
+                logger.info("Iltimos, Render'dagi Environment Variables bo'limini tekshiring")
+                await asyncio.sleep(30)
+                continue
+
+            # Bot yaratish
+            bot = AdvancedCopyBot(config)
+
+            # Initializatsiya
+            if not await bot.initialize():
+                logger.error("❌ Bot initializatsiya qilinmadi")
+                await asyncio.sleep(30)
+                continue
+
+            # Botni ishga tushirish
+            await bot.start()
+
+        except KeyboardInterrupt:
+            logger.info("🛑 Bot to'xtatildi (Ctrl+C)")
+            break
+        except Exception as e:
+            logger.error(f"❌ Kutilmagan xatolik: {e}")
+            logger.error(traceback.format_exc())
+            logger.info("🔄 30 soniyadan keyin qayta ishga tushiriladi...")
+            await asyncio.sleep(30)
+
+
 async def main():
-    """Asosiy funksiya"""
-    try:
-        # Konfiguratsiya
-        config = BotConfig()
-        
-        # API tekshiruvi
-        if not config.API_ID or not config.API_HASH:
-            logger.error("❌ API_ID yoki API_HASH topilmadi!")
-            logger.info("Iltimos, .env faylni tekshiring")
-            sys.exit(1)
-        
-        # Bot yaratish
-        bot = AdvancedCopyBot(config)
-        
-        # Initializatsiya
-        if not await bot.initialize():
-            logger.error("❌ Bot initializatsiya qilinmadi")
-            sys.exit(1)
-        
-        # Botni ishga tushirish
-        await bot.start()
-        
-    except KeyboardInterrupt:
-        logger.info("🛑 Bot to'xtatildi (Ctrl+C)")
-    except Exception as e:
-        logger.error(f"❌ Kutilmagan xatolik: {e}")
-        logger.error(traceback.format_exc())
-        # 30 soniyadan keyin qayta ishga tushirish
-        logger.info("🔄 30 soniyadan keyin qayta ishga tushiriladi...")
-        await asyncio.sleep(30)
-        await main()
+    """Health-check serverni va Telegram botni parallel ishga tushiradi"""
+    await asyncio.gather(
+        run_health_server(),
+        run_bot(),
+    )
 
 if __name__ == '__main__':
     try:

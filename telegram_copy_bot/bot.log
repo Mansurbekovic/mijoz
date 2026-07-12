@@ -4707,3 +4707,1233 @@ telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not 
 telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
 
 2026-07-12 20:58:35,112 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 20:59:05,117 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 20:59:05,118 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 20:59:05,118 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 20:59:05,118 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 20:59:05,269 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:01:27,346 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:01:27,347 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:01:27,347 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:01:27,347 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:01:27,348 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:01:27,377 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:01:27,378 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:01:27,378 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:01:27,378 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:01:27,378 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:01:27,477 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:01:27,507 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:01:27,812 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:01:27,817 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:01:27,817 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:01:27,818 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:01:27,819 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:01:57,820 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:01:57,821 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:01:57,822 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:01:57,822 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:01:57,978 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:01:58,900 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:01:58,902 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:01:58,902 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:01:58,903 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:01:58,903 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:02:28,914 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:02:28,916 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:02:28,916 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:02:28,916 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:02:29,076 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:02:30,006 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:02:30,007 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:02:30,007 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:02:30,008 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:02:30,008 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:03:00,016 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:03:00,017 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:03:00,017 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:03:00,018 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:03:00,205 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:03:01,079 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:03:01,080 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:03:01,080 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:03:01,081 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:03:01,081 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:03:31,090 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:03:31,092 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:03:31,093 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:03:31,093 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:03:31,220 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:03:32,142 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:03:32,143 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:03:32,143 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:03:32,145 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:03:32,145 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:04:02,152 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:04:02,153 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:04:02,154 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:04:02,154 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:04:02,284 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:11:03,253 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,253 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,254 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:11:03,254 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,254 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:11:03,300 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,300 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,301 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,301 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,301 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,301 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,302 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,302 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,302 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:11:03,302 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:11:03,303 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:11:03,303 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:11:03,303 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,303 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,304 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,304 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,304 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:11:03,305 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:11:03,305 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:11:03,306 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:11:03,347 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,348 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,348 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,348 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,348 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:11:03,349 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:11:03,349 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,349 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:11:03,349 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:11:03,350 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:11:03,381 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:11:03,433 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:11:03,435 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:11:03,440 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:11:03,440 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:11:03,488 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:11:03,488 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:11:03,676 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:11:03,677 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:11:03,677 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:11:03,678 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:11:03,678 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:11:33,687 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:11:33,689 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:11:33,689 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:11:33,689 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:11:33,837 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:21,711 - telethon.network.connection.connection - WARNING - Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-12 21:14:21,791 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-12 21:14:21,794 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:14:21,795 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:14:21,977 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:22,276 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:14:22,277 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:14:22,277 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:14:22,279 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:14:22,279 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:14:41,056 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,056 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,056 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:14:41,056 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,057 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:14:41,088 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,088 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,088 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,089 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,089 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,089 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,089 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:14:41,090 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:14:41,090 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:14:41,091 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,091 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,091 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,091 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:14:41,092 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:14:41,092 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:14:41,103 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,103 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,104 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:14:41,104 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,104 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:14:41,134 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,134 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,135 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,135 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,135 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:14:41,136 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:14:41,136 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,136 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-07-12 21:14:41,136 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:14:41,137 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:14:41,204 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:41,219 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:41,223 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:41,229 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:41,236 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:41,261 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:41,272 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:52,294 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:14:52,295 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:14:52,296 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:14:52,296 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:14:52,442 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:14:53,474 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:14:53,475 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:14:53,476 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:14:53,477 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:14:53,477 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:15:23,490 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:15:23,493 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:15:23,493 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:15:23,493 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:15:23,707 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:15:24,661 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:15:24,662 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:15:24,663 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:15:24,664 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:15:24,664 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:15:54,680 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:15:54,681 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:15:54,682 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:15:54,682 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:15:54,819 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:15:55,821 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:15:55,823 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:15:55,824 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:15:55,825 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:15:55,825 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:16:25,827 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:16:25,829 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:16:25,829 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:16:25,830 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:16:25,986 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:16:26,989 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:16:26,991 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:16:26,991 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:16:26,992 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:16:26,992 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:16:57,003 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:16:57,007 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:16:57,008 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:16:57,008 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:16:57,159 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:16:58,064 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:16:58,065 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:16:58,066 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:16:58,066 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:16:58,067 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:17:28,077 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:17:28,080 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:17:28,080 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:17:28,080 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:17:28,223 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:17:29,185 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:17:29,186 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:17:29,186 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:17:29,188 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:17:29,188 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:19:47,162 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:19:47,165 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:19:47,165 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:19:47,166 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,340 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,354 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,356 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,357 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,357 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,360 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,363 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,364 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,365 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,366 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,370 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,371 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,372 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,372 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,374 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,375 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,376 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,377 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,378 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,379 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,381 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,383 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,384 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,385 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,386 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,387 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,388 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,388 - telethon.network.mtprotosender - INFO - Connection closed while sending data
+2026-07-12 21:19:47,389 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,389 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,389 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,389 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,390 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,390 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,390 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,390 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,391 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,391 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,392 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,392 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,392 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,393 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,393 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,395 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,398 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,399 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,400 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,400 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,401 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,402 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,403 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,403 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,405 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,406 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,408 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,408 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,410 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,411 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,412 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,413 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,414 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,415 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,415 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,415 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,416 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,416 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,417 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,417 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,436 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-07-12 21:19:47,451 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:19:47,453 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,466 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,467 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,467 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,468 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,468 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,468 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,468 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,469 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,469 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,469 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,469 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,469 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,470 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,470 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-07-12 21:19:47,554 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,654 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,657 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,657 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,657 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,659 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,659 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,659 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,659 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,659 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,660 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,660 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,661 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:47,666 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:19:48,514 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:19:48,515 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:19:48,515 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:19:48,515 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:19:48,516 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:20:18,519 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:20:18,520 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:20:18,521 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:20:18,521 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:20:18,655 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:20:19,711 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:20:19,712 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:20:19,713 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:20:19,714 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:20:19,714 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:20:49,720 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:20:49,722 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:20:49,722 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:20:49,722 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:20:49,856 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:20:50,948 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:20:50,950 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:20:50,950 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:20:50,951 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:20:50,951 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:21:20,967 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:21:20,968 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:21:20,968 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:21:20,968 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:21:21,092 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:21:46,942 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:21:46,944 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:21:46,944 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:21:46,945 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:21:46,946 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:22:16,960 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:22:16,961 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:22:16,961 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:22:16,961 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:22:17,118 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:22:46,517 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:22:46,524 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    """Botni ishga tushirish"""
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:22:46,524 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:22:46,526 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+    config = BotConfig()
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    """Botni ishga tushirish"""
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:22:46,526 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:23:16,538 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:23:16,539 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:23:16,539 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:23:16,540 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:23:16,677 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:23:17,538 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:23:17,540 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    """Botni ishga tushirish"""
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:23:17,540 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:23:17,541 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+    config = BotConfig()
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    """Botni ishga tushirish"""
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:23:17,542 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:23:47,548 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:23:47,549 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:23:47,549 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:23:47,550 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:23:47,721 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:24:10,046 - __main__ - ERROR - ❌ Ishga tushirish xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:24:10,047 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    """Botni ishga tushirish"""
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:24:10,048 - __main__ - ERROR - ❌ Kutilmagan xatolik: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+2026-07-12 21:24:10,049 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 740, in main
+    # ========== ASOSIY FUNKSIYA ==========
+  File "C:\Users\User\Desktop\zakaz_bot\telegram_copy_bot\bot.py", line 392, in start
+    """Botni ishga tushirish"""
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 177, in _start
+    await self.sign_in(bot_token=bot_token)
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\auth.py", line 357, in sign_in
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\zakaz_bot\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.AccessTokenInvalidError: The provided token is not valid (caused by ImportBotAuthorizationRequest)
+
+2026-07-12 21:24:10,049 - __main__ - INFO - 🔄 30 soniyadan keyin qayta ishga tushiriladi...
+2026-07-12 21:24:40,053 - __main__ - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:24:40,055 - __main__ - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:24:40,055 - __main__ - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:24:40,055 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:24:40,193 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:41:01,494 - telegram_copy_bot.bot - INFO - 🚀 Bot initializatsiya qilinmoqda...
+2026-07-12 21:41:01,496 - telegram_copy_bot.bot - INFO - ✅ Bot muvaffaqiyatli initializatsiya qilindi
+2026-07-12 21:41:01,496 - telegram_copy_bot.bot - INFO - 🌟 Bot ishga tushmoqda...
+2026-07-12 21:41:01,496 - telegram_copy_bot.bot - INFO - 📱 Phone number topildi, user-account login ishlatilmoqda
+2026-07-12 21:41:01,497 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:41:01,498 - telegram_copy_bot.bot - INFO - 🌐 Health-check server 10000-portda ishga tushdi
+2026-07-12 21:41:01,662 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:41:14,668 - telegram_copy_bot.bot - INFO - ✅ Bot M.Rustambekov (@Muhammadislombek_0012) sifatida ishga tushdi
+2026-07-12 21:41:14,825 - telegram_copy_bot.bot - INFO - ✅ Kanal tekshirildi: yuk_markazi_bogdod
+2026-07-12 21:41:14,970 - telegram_copy_bot.bot - INFO - ✅ Kanal tekshirildi: Gmail058omad
+2026-07-12 21:41:15,132 - telegram_copy_bot.bot - INFO - ✅ Kanal tekshirildi: yuk_markazi_gruppaaaa
+2026-07-12 21:41:15,279 - telegram_copy_bot.bot - INFO - ✅ Kanal tekshirildi: Yuk_markazi_kia_hunday_isuzu_yuk
+2026-07-12 21:41:15,420 - telegram_copy_bot.bot - INFO - ✅ Kanal tekshirildi: kia_hunday_yuk
+2026-07-12 21:41:15,420 - telegram_copy_bot.bot - INFO - 📡 5/5 ta kanal tekshirildi
+2026-07-12 21:41:15,421 - telegram_copy_bot.bot - INFO - 🔄 Holat: starting → working
+2026-07-12 21:41:15,421 - telegram_copy_bot.bot - INFO - 🔄 Ish sikli #1 boshlandi
+2026-07-12 21:41:15,421 - telegram_copy_bot.bot - INFO - ⏰ 5 soat ish rejimi...
+2026-07-12 21:41:15,421 - telegram_copy_bot.bot - INFO - 🔄 Holat: working → working
+2026-07-12 21:41:15,738 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: yuk_markazi_bogdod | Quvasoydan toshkega yangi yoʻlga olma bor isuzuga 5 tonalika tip top 940292800
+2026-07-12 21:41:16,122 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13273 | kanal: yukspriter
+2026-07-12 21:41:16,122 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: yuk_markazi_bogdod | Ертага ерталап поп га борип  400 сетка пиёз юклап келиш кк учкуприк куштепадан одам бор бирга кетади исузи кк +998979050
+2026-07-12 21:41:16,369 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13274 | kanal: yukspriter
+2026-07-12 21:41:16,690 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: Gmail058omad | Quyliqdan Quqonga yuryappiz yuklarin busa berilar opketeli sprinterga +998770713232 moshina pustoy ketoramiz bumasa
+2026-07-12 21:41:16,901 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13275 | kanal: yukspriter
+2026-07-12 21:41:16,901 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: Gmail058omad | Ертага ерталапга поп га борип пиёз юклап келиш кк 400 сетка пиёз бор учкуприк куштепадан одам бор бирга кетади исузи кк 
+2026-07-12 21:41:17,141 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13276 | kanal: yukspriter
+2026-07-12 21:41:17,141 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: Gmail058omad | Rapxondan yuk bor samarqanga 3500 kg 933722858
+2026-07-12 21:41:17,372 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13277 | kanal: yukspriter
+2026-07-12 21:41:17,686 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: yuk_markazi_gruppaaaa | SURXANDARYO UZUNDAN
+FARGONA QUVSOYGA
+BORTLI PLASHATKA YO
+SHALANDA KERE
+ERTAGA YUKLAYDI
+936519559
+
+
+
+Андижон кургон тепад
+2026-07-12 21:41:17,914 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13278 | kanal: yukspriter
+2026-07-12 21:41:17,914 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: yuk_markazi_gruppaaaa | ERTAGA YUKLANADI!!!
+
+Napitka 👇👇👇👇
+
+Газалкент -  Карши 1та  - 
+
+Ташкент -  Кукон 3 та - 
+Ташкент -  Наманган 3 та  - 
+Таш
+2026-07-12 21:41:18,226 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13279 | kanal: yukspriter
+2026-07-12 21:41:18,594 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: Yuk_markazi_kia_hunday_isuzu_yuk | Fargʻonada qaytYabmiz yuk pochta olamiz Hyundai
+2026-07-12 21:41:18,912 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13280 | kanal: yukspriter
+2026-07-12 21:41:18,913 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: Yuk_markazi_kia_hunday_isuzu_yuk | Jizzax 17postdan Owga yuk bor tentfura kk 931988996
+2026-07-12 21:41:19,190 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13281 | kanal: yukspriter
+2026-07-12 21:41:19,190 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: Yuk_markazi_kia_hunday_isuzu_yuk | Samarqand Bulungʻurdan Qashqadaryo Yakkabogʻga 4 tonna yuk bor. Telefon nomer +998772382000
+2026-07-12 21:41:19,391 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13282 | kanal: yukspriter
+2026-07-12 21:41:19,719 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: kia_hunday_yuk | Toshkent fudsitiy bozordan Farg'onaga 400kg yuk bor srochniga 500ming beriladi 880033132 kiya hunday kerak
+2026-07-12 21:41:19,922 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13283 | kanal: yukspriter
+2026-07-12 21:41:19,923 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:22,610 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:24,724 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: yuk_markazi_gruppaaaa | ERTAGA YUKLANADI!!! 🚚📦
+
+Napitka 👇👇👇👇
+
+Газалкент - Карши 3 та 🚛
+Ташкент - Кукон 3 та 🚛
+Ташкент - Наманган 3 та 🚛
+Ташкент 
+2026-07-12 21:41:24,949 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13284 | kanal: yukspriter
+2026-07-12 21:41:25,913 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:29,624 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:32,312 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:35,148 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:38,202 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:40,865 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:43,467 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:46,085 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:41:48,729 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:15,425 - telegram_copy_bot.bot - INFO - 💚 Sog'lik tekshiruvi: {'state': 'working', 'uptime': 0, 'work_duration': 60, 'rest_duration': 0, 'messages_copied': 12, 'errors': 11, 'total_cycles': 0, 'health': '⚠️ PAST'}
+2026-07-12 21:42:15,425 - telegram_copy_bot.bot - WARNING - ⚠️ Xatoliklar ko'p, tiklanish kerak
+2026-07-12 21:42:15,426 - telegram_copy_bot.bot - INFO - 🔄 Xatolikdan tiklanish boshlanmoqda...
+2026-07-12 21:42:15,426 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-12 21:42:15,427 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:42:17,458 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:42:17,717 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:42:22,881 - telegram_copy_bot.bot - INFO - ✅ Tiklanish muvaffaqiyatli
+2026-07-12 21:42:22,882 - telegram_copy_bot.bot - INFO - 🔄 Holat: recovering → working
+2026-07-12 21:42:24,162 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: yuk_markazi_gruppaaaa | ERTAGA YUKLANADI!!! 🚚📦
+
+Napitka 👇👇👇👇
+
+📍Газалкент - Карши 3 та 🚛
+📍Ташкент - Фергана 1 та 🚛
+📍Ташкент - Кукон 3 та 🚛
+📍Ташке
+2026-07-12 21:42:24,497 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13285 | kanal: yukspriter
+2026-07-12 21:42:25,176 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:27,855 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:30,415 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:33,031 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:35,704 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:38,413 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:39,912 - telethon.client.updates - INFO - Got difference for account updates
+2026-07-12 21:42:41,108 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:43,806 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:46,373 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:49,366 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:42:52,331 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:22,890 - telegram_copy_bot.bot - INFO - 💚 Sog'lik tekshiruvi: {'state': 'working', 'uptime': 0, 'work_duration': 60, 'rest_duration': 0, 'messages_copied': 1, 'errors': 11, 'total_cycles': 0, 'health': '⚠️ PAST'}
+2026-07-12 21:43:22,891 - telegram_copy_bot.bot - WARNING - ⚠️ Xatoliklar ko'p, tiklanish kerak
+2026-07-12 21:43:22,891 - telegram_copy_bot.bot - INFO - 🔄 Xatolikdan tiklanish boshlanmoqda...
+2026-07-12 21:43:22,891 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-12 21:43:22,892 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:43:24,928 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-07-12 21:43:25,060 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-12 21:43:30,456 - telegram_copy_bot.bot - INFO - ✅ Tiklanish muvaffaqiyatli
+2026-07-12 21:43:30,456 - telegram_copy_bot.bot - INFO - 🔄 Holat: recovering → working
+2026-07-12 21:43:31,634 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: yuk_markazi_gruppaaaa | ERTAGA YUKLANADI!!! 🚚📦
+
+Napitka 👇👇👇👇
+
+Газалкент - Карши 3 та 🚛
+
+Ташкент - Кукон 3 та 🚛
+Ташкент - Наманган 3 та 🚛
+Ташкент
+2026-07-12 21:43:31,980 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13286 | kanal: yukspriter
+2026-07-12 21:43:31,981 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: yuk_markazi_gruppaaaa | Toshken toshmoʻridan Fargʻona margʻulonga tent Fura kerak 
+Ertaga yuklanadi 932977076
+2026-07-12 21:43:32,194 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13287 | kanal: yukspriter
+2026-07-12 21:43:32,514 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: Yuk_markazi_kia_hunday_isuzu_yuk | Oltariqdan Samarqanga 3.5 tonna yuk borakan oladigan moshina kerak +998901680093
+2026-07-12 21:43:32,731 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13288 | kanal: yukspriter
+2026-07-12 21:43:32,732 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: Yuk_markazi_kia_hunday_isuzu_yuk | Ertalab Zaribdordan Food sitiga tarvuz bor 2ta kichkina isuzu kerak 971402727
+2026-07-12 21:43:32,929 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13289 | kanal: yukspriter
+2026-07-12 21:43:33,293 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:35,900 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:38,756 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:41,709 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:44,447 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:47,152 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:49,833 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:51,898 - telegram_copy_bot.bot - INFO - 📥 Poll orqali mos kelgan xabar topildi: yuk_markazi_gruppaaaa | ERTAGA YUKLANADI!!!
+
+Napitka 👇👇👇👇
+
+Газалкент -  Карши 1 та  - 
+
+Ташкент -  Кукон 3 та - 
+Ташкент -  Наманган 3 та  - 
+Та
+2026-07-12 21:43:52,122 - telegram_copy_bot.bot - INFO - ✅ Poll orqali xabar ko'chirildi: 13290 | kanal: yukspriter
+2026-07-12 21:43:52,746 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:55,434 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:43:58,385 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:44:01,249 - telegram_copy_bot.bot - ERROR - ❌ Ish fazasi xatolik: 'Message' object has no attribute 'caption'
+2026-07-12 21:44:24,798 - telegram_copy_bot.bot - INFO - ⚠️ Signal 2 qabul qilindi, bot to'xtatilmoqda...
+2026-07-12 21:44:24,799 - telegram_copy_bot.bot - INFO - ⏹️ Ish fazasi to'xtatildi
+2026-07-12 21:44:24,799 - telegram_copy_bot.bot - INFO - ✅ 5 soatlik ish fazasi tugadi
+2026-07-12 21:44:24,799 - telegram_copy_bot.bot - INFO - ☕ 30 daqiqa dam olish vaqti...
+2026-07-12 21:44:24,799 - telegram_copy_bot.bot - INFO - 🔄 Holat: working → resting
+2026-07-12 21:44:24,801 - telegram_copy_bot.bot - INFO - ⏹️ Sog'lik tekshiruvi to'xtatildi
+2026-07-12 21:44:24,987 - telegram_copy_bot.bot - INFO - ⚠️ Signal 2 qabul qilindi, bot to'xtatilmoqda...

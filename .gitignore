@@ -1,8 +1,14 @@
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.venv/
+# Muhit va sirlar
 .env
 *.session
-*.log
+*.session-journal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Loglar va vaqtinchalik keshlar
+bot.log
+message_cache.json
