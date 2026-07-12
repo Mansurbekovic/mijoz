@@ -16,4 +16,5 @@ aiofiles==23.2.1
 
 # Optional on Linux/Unix
 uvloop==0.22.1; platform_system != "Windows"
-cryptg==0.4.0; platform_system != "Windows"
+# cryptg is omitted here because it tries to build native extensions in Render
+# and is not required for the bot to run.
