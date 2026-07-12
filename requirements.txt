@@ -1,0 +1,1 @@
+-r telegram_copy_bot/requirements.txt
