@@ -40,12 +40,13 @@ from cachetools import TTLCache, LRUCache
 import aiofiles
 from contextlib import asynccontextmanager
 
+logger = logging.getLogger(__name__)
+
 # ========== UVLOOP SOZLASH (Windows uchun ixtiyoriy) ==========
 try:
-    import uvloop
+    import uvloop  # type: ignore[import-not-found]
     asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 except Exception:
-    logger = logging.getLogger(__name__)
     logger.warning("⚠️ uvloop mavjud emas, stdlib asyncio ishlatiladi")
 
 # ========== SIGNAL HANDLER ==========
@@ -159,12 +160,30 @@ class BotConfig:
     # Kalit so'zlar
     KEYWORDS: List[str] = field(
         default_factory=lambda: [
-            'yuk', 'isuzu', 'kia', 'hundau', 'sprintr', 'sprintir',
+            'yuk', 'isuzu', 'kia', 'kerak','sprintr', 'sprintir',
             'oltiariq', 'uzum', 'shaftoli', 'qoshimcha',
             'changan', 'labo', 'damas',
             'юк', 'исузу', 'киа', 'хундау', 'спринтр', 'спринтир',
             'олтиарик', 'узум', 'шафтоли', 'кошимча',
-            'чанган', 'лабо', 'дамас'
+            'чанган', 'лабо', 'дамас',
+            'olma', 'olma', 'яблоко', 'яблоко',
+            'banan', 'banan', 'банан', 'банан',
+            'olxoiri', 'olxoiri', 'слива', 'слива',
+            'orik', 'orik', 'абрикос', 'абрикос',
+            'shaftoli', 'shaftoli', 'персик', 'персик',
+            'anor', 'anor', 'гранат', 'гранат',
+            'uzum', 'uzum', 'виноград', 'виноград',
+            'anjir', 'anjir', 'инжир', 'инжир',
+            'nok', 'nok', 'груша', 'груша',
+            'apelsin', 'apelsin', 'апельсин', 'апельсин',
+            'limon', 'limon', 'лимон', 'лимон',
+            'mandarin', 'mandarin', 'мандарин', 'мандарин',
+            'gilos', 'gilos', 'черешня', 'черешня',
+            'olcha', 'olcha', 'вишня', 'вишня',
+            'qovun', 'qovun', 'дыня', 'дыня',
+            'tarvuz', 'tarvuz', 'арбуз', 'арбуз',
+            'qulpunay', 'qulpunay', 'клубника', 'клубника',
+            'malina', 'malina', 'малина', 'малина'
         ]
     )
     
