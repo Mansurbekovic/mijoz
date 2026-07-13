@@ -412,20 +412,15 @@ class AdvancedCopyBot:
             session_string = os.getenv('TELEGRAM_SESSION_STRING') or os.getenv('SESSION_STRING') or os.getenv('SESSION')
             if session_string:
                 logger.info("🪪 Session string topildi, mavjud sessiya bilan ulanmoqda")
-                await self.client.start(phone=None)
+                await self.client.start()
             else:
-                phone = os.getenv('PHONE_NUMBER') or os.getenv('TELEGRAM_PHONE')
-                if phone:
-                    logger.info("📱 Phone number topildi, user-account login ishlatilmoqda")
-                    await self.client.start(phone=phone)
+                token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
+                if token:
+                    logger.info("🪪 Telegram bot token topildi, token orqali autentifikatsiya qilinmoqda")
+                    await self.client.start(bot_token=token)
                 else:
-                    token = os.getenv('TELEGRAM_TOKEN') or os.getenv('BOT_TOKEN') or os.getenv('TG_BOT_TOKEN')
-                    if token:
-                        logger.info("🪪 Telegram bot token topildi, token orqali autentifikatsiya qilinmoqda")
-                        await self.client.start(bot_token=token)
-                    else:
-                        logger.error("❌ Telegram credential topilmadi")
-                        raise RuntimeError("No Telegram credentials configured")
+                    logger.error("❌ Telegram credential topilmadi. Renderda faqat TELEGRAM_TOKEN yoki TELEGRAM_SESSION_STRING ishlaydi")
+                    raise RuntimeError("No Telegram credentials configured")
 
             me = await self.client.get_me()
             
